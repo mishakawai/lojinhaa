@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%;
+}
+
+.produto h2 {
+    font-size: 1.5rem;
+}
+
+.produto p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.produto span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.produto button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
